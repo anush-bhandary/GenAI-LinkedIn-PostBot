@@ -10,8 +10,9 @@ Suppose Navya is a LinkedIn influencer seeking assistance in crafting her upcomi
 
 ![architecture jpg](https://github.com/user-attachments/assets/293e6138-30c7-4cb1-b1d1-b36d2202f14c)
 
-Stage 1: Gather LinkedIn posts and extract key attributes such as topic, language, and post length.
-Stage 2: Use the selected topic, language, and length to generate a new post. A few relevant past posts matching those criteria are used as examples (few-shot learning) to guide the LLM in capturing the writing style effectively.
+1. Stage 1: Gather LinkedIn posts and extract key attributes such as topic, language, and post length.
+2. Stage 2: Use the selected topic, language, and length to generate a new post. A few relevant past posts matching those criteria are used as examples (few-shot learning) to guide the LLM in capturing the writing style effectively.
+
 
  #  Acknowledgements
  Credits to [Codebasics Inc.](https://www.codebasics.io/) for the foundational ideas and guidance.  
